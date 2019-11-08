@@ -1,12 +1,14 @@
 
 body {
-  background-color: #FBD5F6;
+  background-color: rgba(255,99,71,0.2);
   font-family: "Helvetica", "Arial", sans-sans-serif;
   color: #222;
   font-style: normal;
   font-weight: 400;
   position: relative;
 }
+
+
 
 a{
   color:
@@ -26,6 +28,8 @@ a:active{
 
 h1 {
   color: white;
+  border: 2px solid rgba(255,99,71,0.6);
+  border-radius: 5px;
   text-align: center;
   font-family: Lato;
   font-size: 72px;
