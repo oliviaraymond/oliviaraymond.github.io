@@ -1,0 +1,208 @@
+body {
+  max-width: 960px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  background-color: rgba(255,99,71,0.5);
+  width: auto;
+  padding: 15px;
+  margin: 20px;
+
+}
+/* Nav bar styling */
+nav ul {
+  list-style-type: none;
+  background-color: rgb(220,220,220,.25);
+  text-align: center;
+  overflow: hidden;
+  margin: 50px:s
+
+}
+nav li,a{
+  display: inline-block;
+  text-align: center;
+  color:rgb(105,105,105);
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+nav a:hover {
+  background-color: rgb(240,128,128, 0.3);
+  color: rgb(118, 114, 116);
+}
+nav a:active {
+  background-color: rgb(240,128,128, 1);
+}
+nav a:visited{
+color:rgb(105,105,105);
+}
+a:hover{
+  background-color: rgb(240,128,128, 0.3);
+  color: rgb(118, 114, 116);
+}
+a:active{
+background-color: rgb(240,128,128, 1);
+
+}
+a:visited{
+ color: rgb(240,128,128, 1);
+}
+footer {
+  background-color: rgba(250,99,71,0.1);
+  color: #222;
+  padding: 20px;
+  text-align: center;
+  margin-top: 2px;
+}
+h2 {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #222;
+  background-color: rgba(255,99,71,0.2);
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+p,li, ul, h4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+strong{
+  font-style: italic;
+}
+article{
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+li,ul{
+  list-style-type: none;
+  list-style-position: inherit;
+  text-decoration: center;
+}
+img{
+display: inline-flex;
+  border-radius: 0;
+  border: 2px solid #E9CEDC;
+
+}
+#displayed {
+  grid-area:me;
+  align-items: center;
+
+}
+#displayed1{
+  grid-area: run;
+  align-items: center;
+
+}
+#displayed2{
+  height: 50%;
+  width: 100%;
+  align-items: center;
+}
+#displayed3{
+  grid-area: tulips;
+  align-items: center;
+}
+
+.grid{
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: 420px;
+grid-template-areas:
+"run me tulips";
+grid-gap: 10px;
+}
+/*About*/
+.about{
+  text-align: center;
+}
+.about li{
+  font-size: 20px;
+}
+/*Education*/
+.UM {
+  grid-area: UM;
+  background-color: rgb(248, 244, 246);
+  text-align: center;
+}
+.SAS{
+  grid-area: SAS;
+  text-align: center;
+}
+.HS {
+  grid-area: HS;
+  background-color: rgb(248, 244, 246);
+}
+.education{
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;
+grid-template-areas:
+"UM SAS HS";
+grid-gap: 20px;
+
+}
+/*Experience*/
+.BJ {
+  grid-area: BJ;
+}
+.dining{
+  grid-area:dining;
+  background-color: rgb(248, 244, 246);
+}
+.splash{
+  grid-area: splash;
+}
+.blueh{
+  grid-area: blueh;
+  background-color: rgb(248, 244, 246);
+  text-overflow: clip;
+
+}
+.ciee{
+  grid-area:ciee;
+}
+.experience{
+  display: grid;
+  grid-template-columns: 185px 185px 190px 185px 185px;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "BJ dining splash blueh ciee";
+  grid-gap: 10px;
+  padding: 10px;
+  overflow: hidden;
+  white-space: normal;
+
+}
+/*Skills*/
+.tech{
+  grid-area: tech;
+  background-color: rgb(248, 244, 246);
+
+}
+.lang{
+  grid-area: lang;
+
+}
+.skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "tech lang";
+  grid-gap: 20px;
+}

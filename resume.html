@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8"/>
     <title>Olivia's Résumé</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300|Raleway:300&display=swap" rel="stylesheet"/>
   </head>
 
   <body>
@@ -20,26 +21,30 @@
     </header>
 
     <main>
-      <section>
-        <img src="linkedinpic.jpg" alt="Headshot"/>
-        <p>Headshot of Olivia</p>
+      <div class="grid">
+        <img id="displayed" src="img/linkedinpic.jpg" alt="Headshot"/>
+        <img id="displayed1" src="img/running.jpg" alt="run"/>
+        <img id="displayed3" src="img/tulips.jpg" alt="tulips"/>
+        <!-- <p id="caption">Headshot of Olivia</p> -->
+      </div>
+      <section class="about">
         <h2 id="contactinfo">Contact Information</h2>
         <ul>
           <li>Phone: 970-214-0639</li>
           <li>Email: olivia.raymond97@gmail.com</li>
           <li>Address: <br>1314 West Mountain Ave.<br>Fort Collins, Colorado</li>
-          <!--Used the line break tag because it is an address, not style, more for readability. SEE IF REMOVING THE LAST BREAK WORKED-->
         </ul>
       </section>
 
       <section>
         <h2 id="education">Education</h2>
-        <article>
+        <div class="education">
+        <article class="UM">
           <h3>University of Miami (Florida)</h3>
           <p>Expected Graduation in May 2020</p>
           <p><strong>Major in Computer Science with minors in Marketing, Exercise Physiology, and Spanish.</strong></p>
           <p>Division 1 athlete on the Cross Country and Track team. Also a member of the Delta Phi Epsilon sorority.</p>
-          <h4>Relevant Courses</h4>
+          <h4>Relevant Courses:</h4>
           <ul>
             <li>Java Programming (Intro and Advanced)</li>
             <li>Algorithms and Data Structures</li>
@@ -52,14 +57,15 @@
           </ul>
         </article>
 
-        <article>
+        <article class="SAS">
           <h3><a href="https://www.semesteratsea.org/">Semester At Sea</a></h3>
           <p>Spring 2019 Voyage</p>
           <p><strong>Traveled to 12 countries while taking classes through Colorado State University.</strong></p>
           <p>Gained international educational experiences and developed my global citizenship.</p>
+          <img id="displayed2" src="img/bahamas.jpg" alt="sun"/>
         </article>
 
-        <article>
+        <article class="HS">
           <h3>Poudre High School</h3>
           <p>Class of 2016</p>
           <ul>
@@ -70,12 +76,15 @@
           <p><strong>Advanced Placement Coursework and International Baccalaureate Program.</strong></p>
           <p>Recieved varisty letter in three sports and team captain on the Cross Country team.</p>
         </article>
+      </div>
       </section>
 
       <section>
-        <h2 id="experience">Experience</h2>
 
-        <article>
+        <h2 id="experience">Experience</h2>
+        <div class="experience">
+
+        <article class="BJ">
           <h3>BeauJo’s Restaurant</h3>
           <p>Fort Collins, Colorado</p>
           <p><strong>Waitress</strong></p>
@@ -83,7 +92,7 @@
           <p>Provide the perfect service experience for every guest. Ensure guests feel important and welcome in the restaurant while looking for ways to consolidate service and increase table turnover. </p>
         </article>
 
-        <article>
+        <article class="dining">
           <h3>University of Miami Dining and Auxiliary Services​</h3>
           <p>Coral Gables, Florida</p>
           <p><strong>C​ustomer Service Representative</strong></p>
@@ -91,7 +100,7 @@
           <p>Help students and parents with questions in person and over the phone, foster customer relationships, create financial spreadsheets and marketing collateral.</p>
         </article>
 
-        <article>
+        <article class="splash">
           <h3>Splash Pool Services</h3>
           <p>F​ort Collins, Colorado</p>
           <p><strong>H​ead Lifeguard</strong></p>
@@ -99,7 +108,7 @@
           <p>Monitored chemical levels, organized pool events, and cleaned facilities.</p>
         </article>
 
-        <article>
+        <article class="blueh">
           <h3>BlueHausStudios</h3>
           <p>Fort Collins, Colorado</p>
           <p><strong>​Intern</strong></p>
@@ -107,20 +116,22 @@
           <p>Assisted photographer and aided in small business operations.</p>
         </article>
 
-        <article>
+        <article class="ciee">
           <h3><a href="https://www.ciee.org/">CIEE</a>​</h3>
           <p>Santiago, C​hile</p>
           <p><strong>​Student Blogger</strong></p>
           <p>January 2014 - July 2014</p>
           <p>Selected to blog for the study abroad company about my experience living and studying in Chile for a semester.</p>
         </article>
+      </div>
       </section>
 
       <section>
         <h2 id="skills">Skills</h2>
+        <div class="skills">
 
-        <article>
-          <h3>Tech</h3>
+        <article class="tech">
+          <h3>Tech:</h3>
           <ul>
             <li>Linux</li>
             <li>MacOS</li>
@@ -136,8 +147,8 @@
           </ul>
         </article>
 
-        <article>
-          <h3>Languages</h3>
+        <article class="lang">
+          <h3>Languages:</h3>
           <ul>
             <li>English</li>
             <li>Very proficient in Spanish</li>
@@ -145,6 +156,7 @@
         </article>
       </section>
     </main>
+
 
     <footer>
       <p>Coded in HTML5 by Olivia Raymond for JMM341 with Erin Brown.<p>
