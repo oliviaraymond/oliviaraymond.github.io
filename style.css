@@ -42,9 +42,13 @@ ul li {
 }
 
 footer {
-  background-color: ##F1CDEC
+  background-color: #F1CDEC;
 }
 
 footer p {
   color: #222;
+}
+#about {
+  background-color: #F1CDEC;
+  color: white;
 }
