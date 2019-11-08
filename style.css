@@ -1,16 +1,50 @@
 
 body {
   background-color: #FBD5F6;
+  font-family: "Helvetica", "Arial", sans-sans-serif;
+  color: #222;
+}
+a{
+  color:
+}
+
+a:visited{
+  color:
+}
+
+a:hover {
+  color:
+}
+
+a:active{
+
 }
 
 h1 {
-  color: black;
+  color: white;
   text-align: center;
-
+  font-family: Lato;
+  font-size: 72px;
 }
 
-p {
+h2{
+  font-size: 60px;
+}
+
+p,li {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 20px;
   color: #444;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+footer {
+  background-color: ##F1CDEC
+}
+
+footer p {
+  color: #222;
 }
