@@ -27,9 +27,10 @@ a:active{
 }
 
 h1 {
+
   color: white;
-  border: 2px solid rgba(255,99,71,0.6);
-  border-radius: 5px;
+  border: .5px solid rgba(255,99,71,0.6);
+  border-radius: 9px;
   text-align: center;
   font-family: Lato;
   font-size: 72px;
