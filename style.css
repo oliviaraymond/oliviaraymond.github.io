@@ -1,5 +1,15 @@
 
 body {
-back-ground-color:
+  background-color: #FFEFF2;
+}
 
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #444;
 }
