@@ -3,6 +3,9 @@ body {
   background-color: #FBD5F6;
   font-family: "Helvetica", "Arial", sans-sans-serif;
   color: #222;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
 }
 
 a{
