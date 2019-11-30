@@ -106,6 +106,7 @@ display: inline-flex;
   "Globe WhereIvebeen Map";
   grid-gap: 10px;
 }
+
 #displayed {
   grid-area:me;
   align-items: center;
