@@ -99,7 +99,6 @@ display: inline-flex;
 }
 
 .gridw3pics {
-  .grid{
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 420px;
