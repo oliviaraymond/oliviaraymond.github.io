@@ -103,7 +103,7 @@ display: inline-flex;
   grid-template-columns: auto;
   grid-template-rows: 420px;
   grid-template-areas:
-  "globe WhereIvebeen map";
+  "Globe WhereIvebeen Map";
   grid-gap: 10px;
 }
 #displayed {
