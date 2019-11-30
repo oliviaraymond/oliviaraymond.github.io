@@ -96,7 +96,16 @@ img{
 display: inline-flex;
   border-radius: 0;
   border: 2px solid #E9CEDC;
+}
 
+.gridw3pics {
+  .grid{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 420px;
+  grid-template-areas:
+  "globe WhereIvebeen map";
+  grid-gap: 10px;
 }
 #displayed {
   grid-area:me;
