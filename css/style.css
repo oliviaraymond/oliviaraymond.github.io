@@ -11,7 +11,6 @@ h1 {
   width: auto;
   padding: 15px;
   margin: 20px;
-
 }
 /* Nav bar styling */
 nav ul {
@@ -19,7 +18,7 @@ nav ul {
   background-color: rgb(220,220,220,.25);
   text-align: center;
   overflow: hidden;
-  margin: 50px:s
+  /* margin: 50px; */
 
 }
 nav li,a{
@@ -52,6 +51,9 @@ background-color: rgb(240,128,128, 1);
 a:visited{
  color: rgb(240,128,128, 1);
 }
+header {
+
+}
 footer {
   background-color: rgba(250,99,71,0.1);
   color: #222;
@@ -77,20 +79,20 @@ p,li, ul, h4{
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  text-align: center;
+  /* text-align: center; */
 }
 strong{
   font-style: italic;
 }
 article{
-  text-align: center;
+  /* text-align: */
   padding: 10px;
   margin: 20px;
 }
 li,ul{
   list-style-type: none;
   list-style-position: inherit;
-  text-decoration: center;
+  /* text-decoration: center; */
 }
 img{
 display: inline-flex;
